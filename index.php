@@ -6,12 +6,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<center>
+	<section id="home">
 		<h1>BEM VINDOS AO ENIGMA ENIGMATICO DO CLEITON</h1>
 		<img src="cleiton.jpg">
 		<br>
 		<input type="submit" value="Entrar até os desafios!" name="Entrar">
-	</center>
+	</section>
 </body>
 </html>
 <?php
