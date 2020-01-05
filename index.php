@@ -3,13 +3,7 @@
 <head>
 	<title>Enigmas do clayton</title>
 	<meta charset="utf-8">
-	<style type="text/css">
-		input{
-			color: #000000;
-			border-color: black;
-			background-color: #ffd700 ;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<center>
