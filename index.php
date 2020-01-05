@@ -12,7 +12,7 @@
 			<br>
 			<img src="cleiton.jpg">
 			<br>
-			<input type="submit" value="Entrar até os desafios!" name="Entrar" class="btn1">
+			<input type="submit" onclick="window.location.href = '1.php'" value="Entrar até os desafios!" name="Entrar" class="btn1">
 		</div>
 	</section>
 </body>
