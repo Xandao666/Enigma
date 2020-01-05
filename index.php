@@ -7,16 +7,13 @@
 </head>
 <body>
 	<section id="home">
-		<div class="card">
-			<form method="post">
+			<form method="post" class="card">
 			<h1>BEM VINDOS AO ENIGMA ENIGMATICO DO CLEITON</h1>
 			<br>
 			<img src="cleiton.jpg">
 			<br>
 			<input type="submit" onclick="window.location.href = '1.php'" value="Entrar até os desafios!" name="Entrar" class="btn1">
-
 		</form>
-		</div>
 	</section>
 	<div id="creditos1">
 		<h1>Feito por:</h1>
@@ -31,7 +28,7 @@
 <?php
 $submit = @$_REQUEST['Entrar'];
 if ($submit) {
-   header("Location: painel.php");
+   header("Location: 1.php");
 }
 
 
