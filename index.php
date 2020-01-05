@@ -7,10 +7,13 @@
 </head>
 <body>
 	<section id="home">
-		<h1>BEM VINDOS AO ENIGMA ENIGMATICO DO CLEITON</h1>
-		<img src="cleiton.jpg">
-		<br>
-		<input type="submit" value="Entrar até os desafios!" name="Entrar">
+		<div class="card">
+			<h1>BEM VINDOS AO ENIGMA ENIGMATICO DO CLEITON</h1>
+			<br>
+			<img src="cleiton.jpg">
+			<br>
+			<input type="submit" value="Entrar até os desafios!" name="Entrar" class="btn1">
+		</div>
 	</section>
 </body>
 </html>
