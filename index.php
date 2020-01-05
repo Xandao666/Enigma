@@ -8,11 +8,14 @@
 <body>
 	<section id="home">
 		<div class="card">
+			<form method="post">
 			<h1>BEM VINDOS AO ENIGMA ENIGMATICO DO CLEITON</h1>
 			<br>
 			<img src="cleiton.jpg">
 			<br>
 			<input type="submit" onclick="window.location.href = '1.php'" value="Entrar até os desafios!" name="Entrar" class="btn1">
+
+		</form>
 		</div>
 	</section>
 </body>
