@@ -14,6 +14,26 @@ section#home{
 	justify-content: center;
 	align-items: center;
 }
+#creditos1{
+	background: #072608;
+	position: absolute;
+	top: -77px;
+	left: 20px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px 20px;
+	animation: rotate 29s linear infinite;
+}
+#creditos2{
+	background: #072608;
+	position: absolute;
+	top: -77px;
+	right: 20px;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px 20px;
+	animation: rotate 29s linear infinite;
+}
 .btn1{
 	padding: 14px 20px;
 	background: inherit;
@@ -31,4 +51,19 @@ section#home{
 	justify-content: center;
 	align-items: center;
 	box-shadow: 1px 1px 20px black;
+}
+
+@keyframes rotate {
+	0% {
+		color: #f7f7f7;
+	}
+
+	50% {
+		color: #e4f0e4;
+		transform: translateY(100vh)
+	}
+
+	100% {
+		color: #f7f7f7;
+	}
 }
